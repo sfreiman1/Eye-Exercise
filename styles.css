@@ -1,0 +1,64 @@
+/* styles.css - styles used in the eye exercise */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #14495e;
+}
+
+h1 {
+  color: white;
+}
+
+.eyes {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye {
+  width: 240px;
+  height: 120px;
+  background: #fff;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.pupil {
+  width: 80px;
+  height: 80px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.pupil.blue {
+  background: blue;
+}
+
+.pupil.green {
+  background: green;
+}
+
+.pupil.red {
+  background: red;
+}
+
+.pupil.brown {
+  background: rgb(54, 36, 1);
+}
+
+.pupil.purple {
+  background: purple;
+}
+
+.pupil.yellow {
+  background: yellow;
+}
